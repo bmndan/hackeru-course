@@ -51,3 +51,16 @@ public class SumDigits
         }
     }
 }
+
+public class CalcDays
+{
+	public static void Main()
+	{
+        System.Console.WriteLine("Enter days: ");
+        int n = int.Parse(Console.ReadLine());
+        int years = n / 360;
+        int months = n / 30 % 12;
+        int days = n % 30;
+        System.Console.WriteLine("{0} years, {1} months, {2} days", years, months, days);
+    }
+}
