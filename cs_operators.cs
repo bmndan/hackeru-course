@@ -24,7 +24,7 @@ public class CalcRemainder
 	}
 }
 
-Q2
+//Q2
 public class SumDigits
 {
 	public static void Main()
