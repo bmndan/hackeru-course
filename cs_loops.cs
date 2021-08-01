@@ -66,5 +66,6 @@ public class Q3
                 break;
     	}
 		System.Console.WriteLine("{0}{1}{2}={3}",x,o,y,r);
+		
 	}
 }
