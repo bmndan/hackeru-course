@@ -8,6 +8,7 @@ public class ScientificCalculator
 		string exp; string[] param; char op; double x, y, result; bool isExit = false;
 
 		while (!isExit) {
+			
 		Console.WriteLine("Enter expression: ");
 		exp = Console.ReadLine();
 
@@ -15,6 +16,7 @@ public class ScientificCalculator
 			isExit = true;
 			continue;
 		}
+
 		param  = exp.Split(" ");
 
 		x = double.Parse(param[0]);
