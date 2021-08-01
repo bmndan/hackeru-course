@@ -5,15 +5,16 @@ public class ScientificCalculator
 {
 	private static void Main()
 	{
-		string exp; string[] param; char op; double x, y, result;
+		string exp; string[] param; char op; double x, y, result; bool isExit = false;
 
-		while (true) {
+		while (!isExit) {
 		Console.WriteLine("Enter expression: ");
 		exp = Console.ReadLine();
 
-		if (exp == "exit")
-			break;
-
+		if (exp == "exit") {
+			isExit = true;
+			continue;
+		}
 		param  = exp.Split(" ");
 
 		x = double.Parse(param[0]);
