@@ -7,15 +7,23 @@ public class ScientificCalculator
 	{
 		string exp; string[] param; char op; double x, y, result;
 
+		while (true) {
 		Console.WriteLine("Enter expression: ");
 		exp = Console.ReadLine();
+
+		if (exp == "exit")
+			break;
+
 		param  = exp.Split(" ");
+
 		x = double.Parse(param[0]);
 		y = double.Parse(param[2]);
 		op = char.Parse(param[1]);
+
 		result = GetResult(x, y, op);
+
 		Console.WriteLine("{0} {1} {2} = {3}", x, op, y, result);
-		;
+		}
     }
 	static double GetResult(double x, double y, char op)
 	{
@@ -38,7 +46,9 @@ public class ScientificCalculator
                 result = x % y;
                 break;
     	}
-		result = Math.Round(result*100)/100; // round 2 decimals
+
+		result = Math.Round(result*100)/100; // round decimals
+
 		return result;
 	}
 }
