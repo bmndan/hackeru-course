@@ -1,4 +1,4 @@
-using System;
+/*using System;
 				
 // Q1
 public class ValidateAge
@@ -38,7 +38,7 @@ public class FindMaxNum
 // Q3
 public class Calculator
 {
-	private static void Main()
+	private static void Main3()
 	{
 		int x = int.Parse(Console.ReadLine()); // enter x
 		int y = int.Parse(Console.ReadLine()); // enter y
@@ -67,4 +67,4 @@ public class Calculator
     	}
 		System.Console.WriteLine("{0}{1}{2}={3}",x,o,y,r);
 	}
-}
+}*/
