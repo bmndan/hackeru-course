@@ -5,14 +5,14 @@ public class ScientificCalculator
 {
 	private static void Main()
 	{
-		string exp; string[] parameters; char op; double x, y, result;
+		string exp; string[] param; char op; double x, y, result;
 
 		Console.WriteLine("Enter expression: ");
 		exp = Console.ReadLine();
-		parameters  = exp.Split(" ");
-		x = double.Parse(parameters[0]);
-		y = double.Parse(parameters[2]);
-		op = char.Parse(parameters[1]);
+		param  = exp.Split(" ");
+		x = double.Parse(param[0]);
+		y = double.Parse(param[2]);
+		op = char.Parse(param[1]);
 		result = GetResult(x, y, op);
 		Console.WriteLine("{0} {1} {2} = {3}", x, op, y, result);
 		;
