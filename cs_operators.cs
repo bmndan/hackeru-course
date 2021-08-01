@@ -1,9 +1,9 @@
-using System;
+/*using System;
 					
 // Q1
 public class CalcRemainder
 {
-	public static void Main()
+	public static void Main1()
 	{
         int dividend, divisor, division, remainder;
 
@@ -23,16 +23,16 @@ public class CalcRemainder
         System.Console.WriteLine("Division: {0}, Remainder: {1}", division, remainder);
 	}
 }
-
+			
 //Q2
 public class SumDigits
 {
-	public static void Main()
+	public static void Main2()
 	{
         int n, sum;
         
         System.Console.Write("Enter number [100-999]:");
-        int n = int.Parse(Console.ReadLine());
+        n = int.Parse(Console.ReadLine());
 
         bool isInRange = (n >= 100 && n <= 999);
 
@@ -52,9 +52,10 @@ public class SumDigits
     }
 }
 
+// Q3
 public class CalcDays
 {
-	public static void Main()
+	public static void Main3()
 	{
         System.Console.WriteLine("Enter days: ");
         int n = int.Parse(Console.ReadLine());
@@ -63,4 +64,4 @@ public class CalcDays
         int days = n % 30;
         System.Console.WriteLine("{0} years, {1} months, {2} days", years, months, days);
     }
-}
+}*/

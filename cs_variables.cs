@@ -1,9 +1,9 @@
-using System;
+/*using System;
 					
 // Q1
 public class GetBirthDate
 {
-	public static void Main()
+	public static void Main1()
 	{
 		int iYear, iMonth, iDay;
 		
@@ -16,16 +16,16 @@ public class GetBirthDate
 		Console.WriteLine("Enter day: ");
 		iDay = int.Parse(Console.ReadLine());
 		
-		Console.WriteLine(iDay + "." + iMonth + "." + iYear);
-		Console.WriteLine(iDay + "-" + iMonth + "-" + iYear);
-		Console.WriteLine(iDay + "/" + iMonth + "/" + iYear);
+		Console.WriteLine("{0}.{1}.{2}", iDay, iMonth, iYear);
+		Console.WriteLine("{0}-{1}-{2}", iDay, iMonth, iYear);
+		Console.WriteLine("{0}/{1}/{2}", iDay, iMonth, iYear);
 	}
 }
 
 // Q2
 public class LikePizza
 {
-	public static void Main()
+	public static void Main2()
 	{
 		string myName = "Daniel";
 		int myAge = 29;
@@ -35,10 +35,9 @@ public class LikePizza
 	}
 }
 
-// Q3
 public class GetOrder
 {
-	public static void Main()
+	public static void Main3()
 	{
 		string product;
 		Console.WriteLine("# HackerU Shop #");
@@ -50,4 +49,4 @@ public class GetOrder
 		System.Console.WriteLine("Thank you for buying {0}", product);
 	}
 
-}
+}*/
