@@ -36,7 +36,7 @@ public class FindMaxNum
 }
 
 // Q3
-public class Q3
+public class Calculator
 {
 	private static void Main()
 	{
