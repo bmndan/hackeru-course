@@ -5,11 +5,11 @@ public class ScientificCalculator
 {
 	private static void Main()
 	{
-		string str; string[] parameters; char op; double x, y, result;
+		string exp; string[] parameters; char op; double x, y, result;
 
 		Console.WriteLine("Enter expression: ");
-		str = Console.ReadLine();
-		parameters  = str.Split(" ");
+		exp = Console.ReadLine();
+		parameters  = exp.Split(" ");
 		x = double.Parse(parameters[0]);
 		y = double.Parse(parameters[2]);
 		op = char.Parse(parameters[1]);
