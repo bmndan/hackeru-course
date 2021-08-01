@@ -40,8 +40,8 @@ public class Q3
 {
 	private static void Main()
 	{
-        int x = int.Parse(Console.ReadLine()); // enter x
-        int y = int.Parse(Console.ReadLine()); // enter y
+		int x = int.Parse(Console.ReadLine()); // enter x
+		int y = int.Parse(Console.ReadLine()); // enter y
 		char o = char.Parse(Console.ReadLine()); // enter operator
 		int r = 0;
 
