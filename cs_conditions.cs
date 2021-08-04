@@ -1,4 +1,4 @@
-/*using System;
+using System;
 				
 // Q1
 public class ValidateAge
@@ -67,4 +67,4 @@ public class Calculator
     	}
 		System.Console.WriteLine("{0}{1}{2}={3}",x,o,y,r);
 	}
-}*/
+}

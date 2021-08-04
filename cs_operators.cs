@@ -1,4 +1,4 @@
-/*using System;
+using System;
 					
 // Q1
 public class CalcRemainder
@@ -64,4 +64,4 @@ public class CalcDays
         int days = n % 30;
         System.Console.WriteLine("{0} years, {1} months, {2} days", years, months, days);
     }
-}*/
+}

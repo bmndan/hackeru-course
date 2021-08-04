@@ -1,4 +1,4 @@
-/*using System;
+using System;
 					
 // Q1
 public class GetBirthDate
@@ -49,4 +49,4 @@ public class GetOrder
 		System.Console.WriteLine("Thank you for buying {0}", product);
 	}
 
-}*/
+}
